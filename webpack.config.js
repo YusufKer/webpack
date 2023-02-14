@@ -5,9 +5,10 @@ module.exports = {
         path: __dirname + "/dist/js",
         filename:"bundle.js"
     },
-    performance: {
-        hints: false,
-        maxEntrypointSize: 512000,
-        maxAssetSize: 512000
+    devServer: {
+        static: {
+            directory: __dirname,
+        },
+        port: 9000
     }
 }

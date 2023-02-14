@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "webpack",
-    "dev": "nodemon dev"
+    "build": "webpack",
+    "dev":"webpack serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.20",
-    "three": "^0.149.0"
+    "three": "^0.149.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "devDependencies": {
     "webpack": "^5.75.0",
